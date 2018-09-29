@@ -10,6 +10,27 @@
     <title>Form</title>
 </head>
   <body>
-    
+    <form onsubmit="return results();" method="post" action="mailto:lerato.phokompe@younglings.africa">
+        
+        <h3>Enter Name:</h3>
+        <input id="name" type="text" name="name" placeholder="Enter Nane" required />
+        
+        <h3>Enter Email:</h3>
+        <input id="email" type="text" name="email" placeholder="Enter Email" required />
+        
+        <h3>How do you like Macdonald's self help tills</h3>
+        
+        <input id="poll1" type="radio" name="website_poll" value="Love it" /> Love it.<br/>
+        <input id="poll2" type="radio" name="website_poll" value="Hate it" /> Hate it.<br/>
+        <input id="poll3" type="radio" name="website_poll" value="Never use it" /> Never use it .<br/>
+        
+        <h3>Leave a Comment</h3>
+        <textarea id="comments" name="comments" rows="6" cols="40">Your message here.</textarea>
+        
+        <br/>
+        <br/>
+        
+        <input id="submit" type="submit" value="Send form data now!"/>
+      </form>
   </body>
 </html>
