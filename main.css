@@ -10,8 +10,9 @@ h1 {
   left: 10px;
 }
 #kioks {
-  width: 50%;
-    max-width: 750px;
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
 
 
