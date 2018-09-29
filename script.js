@@ -10,6 +10,9 @@ Submit = function(){
  } else {
    poll = document.getElementById('poll3').value;
  }
+ 
+ var comments = document.getElementById('comments').value;
+ 
   document.write("<h1>Thank You!</h1>");
   document.write("<p>Your Data is sent to us via email</p>");
  
@@ -18,5 +21,6 @@ Submit = function(){
  document.write(name + "<br/>");
  document.write(email + "<br/>");
  document.write(poll + "<br/>");
+ document.write(comments + "<br/>");
  
   }
