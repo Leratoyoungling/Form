@@ -1,5 +1,4 @@
-feedback_form = function()
-{
+feedback_form = function(){
 	valid = true;
 
         if ( document.feedback_form.name.value == "" &&  document.feedback_form.email.value == "")
