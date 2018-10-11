@@ -2,7 +2,7 @@ function feedback_form ()
 {
 	valid = true;
 
-        if ( document.contact_form.contact_name.value == "" )
+        if ( document.feedback_form.name.value == "" &&  document.feedback_form.email.value == "")
         {
                 document.write ( "Please fill in the 'Your Name' box." );
                 valid = false;
