@@ -1,4 +1,4 @@
-function feedback_form ()
+feedback_form = function()
 {
 	valid = true;
 
