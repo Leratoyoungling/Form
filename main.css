@@ -10,13 +10,15 @@ h1 {
   left: 10px;
   color: #ED1C22;
 }
-#kioks {
-  position: relative;
-  top: 18px;
-  left: 10px;
-  margin: 20px auto;
+.kioks {
   width: 100%;
-  
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
 }
-@media screen {#kioks{width:auto;}}
+.kioks iframe {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
 
