@@ -13,12 +13,11 @@ h1 {
 .kioks {
   width: 60%;
   height: 0;
-  padding-bottom: 56.25%;
   position: relative;
 }
 .kioks iframe {
    position: absolute;
-   width: 100%;
+   width: 60%;
    height: 100%;
 }
 
