@@ -17,5 +17,8 @@ h1 {
   margin: 0px;
   position: relative;
 }
+.kioks iframe {
+  position: absolute;
+}
 
 
