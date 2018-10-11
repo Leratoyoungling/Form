@@ -14,7 +14,6 @@ Submit = function(){
  var comments = document.getElementById('comments').value;
  
   document.write("<h1>Thank You!</h1>");
-  document.write("<p>Your Data is sent to us via email</p>");
  
   document.write("<h3>Here is your data:</h3>");
  
