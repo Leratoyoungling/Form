@@ -10,7 +10,7 @@
     <title>Form</title>
 </head>
   <body>
-    <form onclick="return results();" method="post" action="mailto:lerato.phokompe@younglings.africa">
+    <form id="results" onclick="return results();" method="post" action="mailto:lerato.phokompe@younglings.africa">
           
         <div class="Heading">
         <img src="McDonalds.jpg" alt="McDonalds" class="logo"/>
@@ -25,9 +25,11 @@
         
         <h3>Enter Name:</h3>
         <input id="name" type="text" name="name" placeholder="Enter Name" required />
+        <input type="submit" value="Submit">
         
         <h3>Enter Email:</h3>
         <input id="email" type="text" name="email" placeholder="Enter Email" required />
+        <input type="submit" value="Submit">
         
         <h3>How do you like Macdonald's self serve kioks?</h3>
         
