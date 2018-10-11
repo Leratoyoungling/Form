@@ -15,7 +15,7 @@ h1 {
   padding-bottom: 20px;
   margin: 0px;
   position: relative;
-  @media (max-width: 600px){
+  @media (max-width: 100%){
     flex-wrap: wrap;
   }
 }
