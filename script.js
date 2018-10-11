@@ -12,7 +12,7 @@ feedback_form = function(){
 }
 
 Submit = function(){
-	
+ 
  var name = document.getElementById('name').value;
  var email = document.getElementById('email').value;
  
@@ -34,8 +34,8 @@ Submit = function(){
  document.write(email + "<br/>");
  document.write(poll + "<br/>");
  document.write(comments + "<br/>");
-}
-
+ 
+  }
 
 
 
