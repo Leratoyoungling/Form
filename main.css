@@ -14,6 +14,9 @@ h1 {
   position: relative;
   top: 18px;
   left: 10px;
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
 }
-@media screen {max-width:40px}
+@media screen (max-width:50px;){#kioks{width:auto;}}
 
