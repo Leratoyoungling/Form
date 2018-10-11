@@ -10,7 +10,7 @@
     <title>Form</title>
 </head>
   <body>
-    <form id="results" onclick="return results();" method="post" action="mailto:lerato.phokompe@younglings.africa">
+    <form name="feedback_form" method="post" action="mailto:lerato.phokompe@younglings.africa" onsubmit="return validate_form ( );">
           
         <div class="Heading">
         <img src="McDonalds.jpg" alt="McDonalds" class="logo"/>
@@ -41,10 +41,7 @@
         <br/>
         <br/>
         
-        <button id="submit" onClick="Submit()">Submit
-        <input id="name" type="text" name="name" placeholder="Enter Name" required />
-        
-        </button>
+        <p><input type="submit" name="send" value="Send Details"></p>
       </form>
   </body>
 </html>
