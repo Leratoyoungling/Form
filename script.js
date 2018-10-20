@@ -15,6 +15,7 @@ feedback_form = function(){
  
  var name = document.getElementById('name').value;
  var email = document.getElementById('email').value;
+ var txt =  "Thank You!";
  
  if (document.getElementById('poll1').checked) {
   poll = document.getElementById('poll1').value;
@@ -26,7 +27,7 @@ feedback_form = function(){
  
  var comments = document.getElementById('comments').value;
  
-  document.write("<span class='red'>Thank You!</span>");
+  document.write("<h1>txt.fontcolor("green")</h1>");
  
   document.write("<h3>Here is your data:</h3>");
  
