@@ -26,7 +26,7 @@ feedback_form = function(){
  
  var comments = document.getElementById('comments').value;
  
-  document.write("Thank You!".fontcolor('red'));
+  document.write("<h1>Thank You!</h1>".fontcolor('red'));
  
   document.write("<h3>Here is your data:</h3>");
  
