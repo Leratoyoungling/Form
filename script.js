@@ -11,7 +11,7 @@ feedback_form = function(){
 	
 }
 
-from-submitted = function(){
+ function from-submitted() {
  
  var name = document.getElementById('name').value;
  var email = document.getElementById('email').value;
