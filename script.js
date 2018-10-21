@@ -1,4 +1,8 @@
 feedback_form = function(){
+	
+	var docs = document.getElementById("img");
+        docs.setAttribute("src", "https://media.giphy.com/media/l3q2FnW3yZRJVZH2g/giphy.gif");
+	
 	valid = true;
 
         if ( document.feedback_form.name.value == "" &&  document.feedback_form.email.value == "")
