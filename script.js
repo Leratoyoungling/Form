@@ -28,7 +28,6 @@ feedback_form = function(){
  
  var comments = document.getElementById('comments').value;
 	 
-	 docs.setAttribute("src", "https://media.giphy.com/media/l3q2FnW3yZRJVZH2g/giphy.gif");
  
   document.write("<h1>Thank You!</h1>".fontcolor('red'));
   document.write("<p>You have successfully submitted the feedback form.</p>".fontcolor('red'));
